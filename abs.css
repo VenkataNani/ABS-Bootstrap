@@ -1,0 +1,24 @@
+.cn{
+    background-image: url("assets/cn-bg.jpg");
+    text-transform: uppercase;
+    text-align: center;
+}
+.cn h1{
+    font-weight: 900 !important;
+}
+.bgbread{
+    background-image: url("assets/bgbread.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.breadcrumb a, .breadcrumb .active{
+    color: white !important;
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color: white !important;
+}
+.menu .row{
+    border-bottom: 5px solid rgb(207, 203, 203);
+    padding: 10px;
+}
